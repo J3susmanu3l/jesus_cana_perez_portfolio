@@ -184,6 +184,6 @@ the dataset is now more consistent and reliable for further analysis. This proje
 forward to tackling more complex data challenges.
 
 #Contact
-Email: jesusmanuelcanaperes@gmail.com
-LinkedIn: [Jesus Cana Perez](https://www.linkedin.com/in/jesus-cana-perez-070098315/)
+- Email: jesusmanuelcanaperes@gmail.com
+- LinkedIn: [Jesus Cana Perez](https://www.linkedin.com/in/jesus-cana-perez-070098315/)
 
