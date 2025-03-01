@@ -177,3 +177,13 @@ FROM layoffs_staging2;
 -- Remove the temporary row number column as it is no longer needed
 ALTER TABLE layoffs_staging2
 DROP COLUMN row_num;
+
+## Project Conclusion
+This project demonstrates a systematic approach to data cleaning using SQL. By removing duplicates, standardizing data, and handling missing values,
+the dataset is now more consistent and reliable for further analysis. This project marks the beginning of my journey as a data analyst, and I look
+forward to tackling more complex data challenges.
+
+#Contact
+Email: jesusmanuelcanaperes@gmail.com
+LinkedIn: [Jesus Cana Perez](https://www.linkedin.com/in/jesus-cana-perez-070098315/)
+
