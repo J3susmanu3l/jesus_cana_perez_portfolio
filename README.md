@@ -65,7 +65,7 @@ FROM layoffs_staging;
 INSERT INTO layoffs_staging
 SELECT *
 FROM layoffs;
-
+```
 ### 2.  Identifying and Removing Duplicates
 ```sql
 -- Identify duplicates using row_number()
@@ -86,7 +86,7 @@ WITH duplicate_cte AS (
 SELECT *
 FROM duplicate_cte
 WHERE row_num > 1;
-
+```
 ### 3. Removing duplicates by creating a new staging table:
 ```sql
 CREATE TABLE layoffs_staging2 (
@@ -113,6 +113,7 @@ FROM layoffs_staging;
 -- Delete duplicate records (retain rows with row_num = 1)
 DELETE FROM layoffs_staging2
 WHERE row_num > 1;
+```
 ### 4. Standardizing Data
 ```sql
 -- Trim spaces from company names
@@ -143,7 +144,7 @@ SET `date` = STR_TO_DATE(`date`, '%m/%d/%Y');
 
 ALTER TABLE layoffs_staging2
 MODIFY COLUMN `date` DATE;
-
+```
 ### 5.  Handling Null or Blank Values
 ```sql
 -- Identify rows with null values in key fields
@@ -166,6 +167,7 @@ WHERE industry = '';
 DELETE FROM layoffs_staging2
 WHERE total_laid_off IS NULL
   AND percentage_laid_off IS NULL;
+```
 ### 6. Final Check of Cleaned Data
 ```sql
 -- Display the final cleaned data
