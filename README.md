@@ -10,7 +10,7 @@ Welcome to my portfolio! I am a data analyst in the early stages of my career, p
 - [Data Cleaning Process](#data-cleaning-process)
 - [SQL Scripts](#sql-scripts)
 - [Project Conclusion](#project-conclusion)
-- [Contact](#contact)
+- [Contact](#-Contact)
 
 ---
 
@@ -183,7 +183,7 @@ This project demonstrates a systematic approach to data cleaning using SQL. By r
 the dataset is now more consistent and reliable for further analysis. This project marks the beginning of my journey as a data analyst, and I look
 forward to tackling more complex data challenges.
 
-#Contact
+# Contact
 - Email: jesusmanuelcanaperes@gmail.com
 - LinkedIn: [Jesus Cana Perez](https://www.linkedin.com/in/jesus-cana-perez-070098315/)
 
