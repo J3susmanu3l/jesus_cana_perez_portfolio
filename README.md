@@ -5,7 +5,7 @@ Welcome to my portfolio! I am a data analyst in the early stages of my career, p
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
+- [First SQL data cleaning project](#First-SQL-data-cleaning-project)
 - [Data Cleaning Process](#data-cleaning-process)
 - [SQL Scripts](#sql-scripts)
 - [Project Conclusion](#project-conclusion)
