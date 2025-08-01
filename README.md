@@ -1,4 +1,4 @@
-# Data Analyst Portfolio
+# SQL cleaning project
 
 Welcome to my portfolio! I am a data analyst in the early stages of my career, passionate about turning raw data into actionable insights. This portfolio features my projects
 ---
